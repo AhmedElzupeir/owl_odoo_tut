@@ -15,7 +15,7 @@ odoo.define('pos_control-button.CustomProductButtons', function(require) {
 		}
 		async onClick() {
 			Gui.showPopup('ErrorPopup',{
-				title: this.env._t('pos Product Button'),
+				title: this.env._t('Hi ..your name is '),
 				body: (this.env.pos.get_cashier()).name,
 			});
 		}

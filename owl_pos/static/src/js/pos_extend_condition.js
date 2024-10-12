@@ -11,10 +11,10 @@ odoo.define('owl_pos.Codition', function(require) {
     	condition : function(){
     		var cashier = (this.env.pos.get_cashier()).name;
     		let hasdiscount = false;
-    		let chok = "Mitchell Admin";
+    		let check = "Mitchell Admin";
 
     		if (cashier == chok){
-    			hasdiscount = false;
+    			hasdiscount = true;
     		}
 
     		return this.env.pos.config.model_pos_discount && env.pos.config.discount_product_id && hasdiscount;

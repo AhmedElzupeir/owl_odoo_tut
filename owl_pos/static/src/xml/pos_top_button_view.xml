@@ -17,26 +17,3 @@
 
 	</t>
 </templates>
-
-
-
-
-<!-- <?xml version="1.0" encoding="UTF-8"?>
-
-<templates id="template" xml:space="preserve">
-
-	<t t-name="CustomTopButtons" owl="1">
-		<div class="tiket-button" t-on-click="onClick">
-
-
-			<div>My Button</div>
-		</div>
-	</t>
-	<t t-inherit="point_of_sale.chrome" t-inherit-mode="extension">
-		<xpath expr="//TicketButton" position="before">
-			<CustomTopButtons/>
-		</xpath>
-
-	</t>
-</templates>
- -->
